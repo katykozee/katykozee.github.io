@@ -1,27 +1,37 @@
 <head>
     <!-- This will show up on the tab in your browser -->
-    <title>My Portfolio</title>
+    <title>Chuck Norris Joke of the Day</title>
 
     <!-- This links your css file to the html -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #efefef;
+        }
+        
+        .jokes-container {
+            padding: 25px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.4);
+            background-color: #fff;
+            color: #333;
+            border-radius: 5px;
+        }
+        
 </head>
 
 <body>
     <div class="container text-center">
-    <h1>Hello, world!</h1>
-        <p>I'm practicing with Bootstrap!</p>
-        <p>Here's another change.</p>
-    
-    
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src=
-"https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity=
-"sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous">
-    </script> -->
-    
+    <h1>Here's a joke for you from Chuck Norris</h1>
+        <div class="jokes-container mb-4">
+             <p></p>
+             <small class = "text-muted">The joke is going to go here.</small>
+        </div>
+       
     
     <button type="button"
             class="btn btn-primary">Give Me One
